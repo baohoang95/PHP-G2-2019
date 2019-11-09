@@ -1,0 +1,153 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+ 
+}
+
+/* navbar */
+.sidebar {
+  height: 100vh;
+  background: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bottom-border {
+  border-bottom: 1px groove #eee;
+}
+
+.but {
+  border-radius: 30px;
+  padding:  0 16px ;
+  background: none;
+}
+.but:hover{
+  border-radius: 30px;
+  box-shadow: 1px 2px 5px #111; 
+}
+
+.current {
+  background-color: #E8F0FE;
+  border-radius: 0 20px 20px 0;
+  
+  transition: all .3s; 
+}
+.current1:hover {
+  background-color: #F1F3F4;
+  border-radius: 0 20px 20px 0;
+}
+.current:hover {
+  background-color:#E8F0FE;
+  border-radius: 0 20px 20px 0;
+
+  /* transform: translateY(-1px); */
+}
+
+.search-input {
+  background: transparent;
+  border: none;
+  border-radius: 7px;
+  z-index: 10;
+}
+
+.search-input:focus {
+  background: transparent;
+  box-shadow: 1px 3px 0 0px;
+  border-radius: 10px 0 10px 0;
+ 
+}
+
+.search-button {
+  border-radius: 30px;
+  padding: 5px 10px;
+  transition: all .4s;
+}
+
+.search-button:hover {
+  background-color: #eee;
+  /* transform: translateY(-1px); */
+}
+.bo {
+  border-radius: 50%;
+  padding:5px 12px;
+}
+.bo:hover {
+
+  transition: all .4s;
+  background-color: #eee;
+}
+
+.icon-parent {
+  position: relative;
+}
+
+.icon-bullet::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 15px;
+  height: 12px;
+  width: 12px;
+  background-color: #f44336;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: static;
+    height: auto;
+  }
+
+  .top-navbar {
+    position: static;
+  }
+}
+/* new */
+@media (max-width: 411px) {
+  .sidebar {
+    position: static;
+    height: auto;
+  }
+
+  .top-navbar {
+    position: static;
+    border-radius: 5px;
+  }
+}
+/* end of navbar */
+
+/* cards */
+.card-common {
+  box-shadow: 1px 2px 5px #999;
+  transition: all .4s;
+}
+
+.card-common:hover {
+  box-shadow: 2px 3px 15px #999;
+  transform: translateY(-1px);
+}
+/* end of cards */
+
+/* task list */
+.task-border {
+  border-left: 3px solid #f66436;
+}
+/* end of task list */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
